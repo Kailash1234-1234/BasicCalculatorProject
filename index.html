@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculate here..</title>
+    
+   <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="6" >Basic Calculator</th>
+        </tr>
+        <tr>
+            <th colspan="5"><input type="text" name="result"  id="result" value=""></th>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="calculate(this.value)"  value="1"></td>
+            <td><input type="button" onclick="calculate(this.value)"  value="2"></td>
+            <td><input type="button" onclick="calculate(this.value)"  value="3"></td>
+            <td><input type="button" onclick="operation(this.value)"  value="/"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="calculate(this.value)"  value="4"></td>
+            <td><input type="button" onclick="calculate(this.value)"  value="5"></td>
+            <td><input type="button" onclick="calculate(this.value)"  value="6"></td>
+            <td><input type="button" onclick="operation(this.value)"  value="*"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="calculate(this.value)"  value="7"></td>
+            <td><input type="button" onclick="calculate(this.value)"  value="8"></td>
+            <td><input type="button" onclick="calculate(this.value)"  value="9"></td>
+            <td><input type="button" onclick="operation(this.value)"  value="-"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="calculate(this.value)"  value="0"></td>
+            <td><input type="button" style="background-color: green;" onclick="operation(this.value)" value="="></td>
+            <td><input style="background-color: red;" type="button" onclick="operation(this.value)"  value="clr"></td>
+            <td><input type="button" onclick="operation(this.value)" id=add value="+"></td>
+        </tr>
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    margin-left: 40%;
+}
+input{
+    width: 100%;
+    margin-left:2px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+table{
+    border: none;
+    margin-left: 2px;
+    border: 22px solid #ccc;
+    box-shadow: 5px 5px 20px rgb(212, 144, 144), 2px 2px 50px rgb(255, 255, 255);
+    padding: 20px;
+}
+table th{
+    width: 100%;
+}
+table th input:hover{
+    background-color: rgba(240, 16, 16, 0.836);
+    color: white;
+}
+table  td input{
+    background-color: rgba(145, 145, 145, 0.363);
+    border: none;
+}
+table  input:hover{
+    background-color: rgba(207, 101, 189, 0.836);
+    box-shadow: 5px 5px 20px rgb(255, 0, 0);
+    
+}
+table th input{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: 1px solid #ccc;
+    width: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
